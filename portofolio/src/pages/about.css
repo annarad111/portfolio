@@ -1,0 +1,41 @@
+.About{
+    text-align: left;
+    background-image: url('../images/backgroundp.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+    }
+
+    .all{
+        margin-left: 50px;
+    }
+
+    .text{
+        display: inline;
+        font-family: 'Work Sans', sans-serif;
+      }
+      
+      .name{
+        font-family: 'Work Sans', sans-serif;
+      }
+      
+      .position{
+        font-family: 'Inconsolata', monospace;
+        width: 1200px;
+        margin-bottom:20px;
+      }
+      
+      .education{
+        font-family: 'Work Sans', sans-serif;
+        
+      }
+      
+      .top{
+        margin-left:100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }

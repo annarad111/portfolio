@@ -13,11 +13,13 @@
     .all{
         margin-left: 50px;
         overflow: hidden;
+        width:auto;
     }
 
     .text{
         display: inline;
         font-family: 'Work Sans', sans-serif;
+        width:auto;
       }
       
       .name{
@@ -28,10 +30,12 @@
         font-family: 'Inconsolata', monospace;
         width: 1200px;
         margin-bottom:20px;
+        width:auto;
       }
       
       .education{
         font-family: 'Work Sans', sans-serif;
+        width:auto;
         
       }
       
@@ -111,5 +115,75 @@
 
     .button{
       margin-bottom: 46px;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+      .all {
+        margin-left: 20px;
+        overflow: hidden;
+    }
+
+    .text-4xl {
+      font-size: 1.4em;
+      line-height: 0.5rem;
+  }
+  .text-2xl {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.top{
+  margin-top:59px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.About{
+  text-align: left;
+  background-image: url('../images/backgroundp.jpg');
+  background-repeat: repeat;
+  background-position: unset;
+  background-attachment: fixed;
+  -o-background-size: auto;
+  -moz-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
+  }
+
+  .text-7xl {
+    margin-left: 10px;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.button {
+  margin-bottom: 46px;
+  width: 600px;
+}
+
+.glow-on-hover {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 30px;
+  padding: 20px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+.text{
+  width:auto;
+}
+.position{
+  width: auto;
+}
+.education{
+  width: auto;
+}
     }
   

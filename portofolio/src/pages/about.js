@@ -1,4 +1,5 @@
 import './about.css';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -6,7 +7,7 @@ function About() {
         <div className='all'>
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-slate-700">PORTOFOLIO</span>
+       <span className="text-5xl text-slate-700">PORTFOLIO</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
 
@@ -26,7 +27,7 @@ function About() {
 
 
       <p className="position">
-      <span className="text-2xl text-violet-100">Hello ! My name is Radulescu Ana-Maria,I am a hard-working individual with proficiency in HTML, JavaScript, and CSS, React , Python, Java, ASP.NET as well as ability to communicate effectively in a team setting, and possessing a strong willingness to learn about entrepreneurship and business</span>
+      <span className="text-2xl text-violet-100">Hello ! My name is Radulescu Ana-Maria,I am a hard-working,creative person with good understanding of HTML, JavaScript, CSS, React, Python, Java, ASP.NET as well as ability to communicate effectively in a team setting, and possessing a strong willingness to learn more about anything in this field.</span>
       </p>
 
       <p className="text">
@@ -52,19 +53,20 @@ function About() {
       <span className="text-2xl text-violet-100">I had my own business in the Arts Field for 4 Years</span>
       </p>
       </div>
+      <div className='button'>
+      <Link className="glow-on-hover" to="/projects" activeStyle>
+            Want to see my projects?
+        </Link>
+        </div>
 
 
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-slate-700">/PORTOFOLIO</span>
+       <span className="text-5xl text-slate-700">/PORTFOLIO</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
+      
 
-      <p className="position">
-      <span className="text-2xl text-violet-100">I had my own business in the Arts Field for 4 Years</span>
-      </p>
-      
-      
         </div>
       
 

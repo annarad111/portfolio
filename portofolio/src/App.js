@@ -9,6 +9,7 @@ import About from "./pages/about";
 import Home from "./pages/main";
 import React from 'react';
 import './App.css';
+import Projects from "./pages/projects";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes> 
           <Route path="/" exact element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
 

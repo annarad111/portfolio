@@ -7,7 +7,7 @@ function About() {
         <div className='all'>
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-slate-700">PORTFOLIO</span>
+       <span className="text-5xl text-cyan-400">PORTFOLIO</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
 
@@ -22,7 +22,7 @@ function About() {
 
       <p className="text">
       <span className="text-7xl text-fuchsia-500">.</span>
-       <span className="text-5xl text-slate-700">about me</span>
+       <span className="text-5xl text-cyan-400">about me</span>
       </p>
 
 
@@ -32,7 +32,7 @@ function About() {
 
       <p className="text">
       <span className="text-7xl text-fuchsia-500">.</span>
-       <span className="text-5xl text-slate-700">education</span>
+       <span className="text-5xl text-cyan-400">education</span>
       </p>
       <p className="education">
       <span className="text-2xl text-violet-100">Programming School Codecool-Fullstack Course </span>
@@ -41,7 +41,7 @@ function About() {
       <span className="text-2xl text-violet-100">1 Year Course hands-on experience </span>
       </p>
       <p className="education">
-      <span className="text-2xl text-violet-100">UARTE - Bucharest National University of Arts </span>
+      <span className="text-2xl text-violet-100">UNARTE - Bucharest National University of Arts </span>
       </p>
       <p className="position">
       <span className="text-2xl text-violet-100">Visual Arts - 4 Years</span>
@@ -62,7 +62,7 @@ function About() {
 
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-slate-700">/PORTFOLIO</span>
+       <span className="text-5xl text-cyan-400">/PORTFOLIO</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
       

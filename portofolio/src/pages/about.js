@@ -7,7 +7,7 @@ function About() {
         <div className='all'>
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-cyan-400">PORTFOLIO</span>
+       <span className="text-5xl text-cyan-400">RESUME</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
 
@@ -62,7 +62,7 @@ function About() {
 
       <p className="text">
       <span className="text-7xl text-fuchsia-500">&lt;</span>
-       <span className="text-5xl text-cyan-400">/PORTFOLIO</span>
+       <span className="text-5xl text-cyan-400">/RESUME</span>
        <span className="text-7xl text-fuchsia-500">&gt;</span>
       </p>
       

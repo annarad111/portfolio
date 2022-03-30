@@ -101,3 +101,7 @@ a{
     float: right;
     margin: 37px;
 }
+
+.githubtext:hover{
+  color:#ff07d6;
+}
